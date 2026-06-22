@@ -43,9 +43,11 @@ export default function Projects() {
               className="bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
             >
               {/* Project Banner */}
-              <div className="h-48 bg-gradient-to-br from-teal-100 to-emerald-100 flex items-center justify-center">
+              {/* <div className="h-48 bg-gradient-to-br from-teal-100 to-emerald-100 flex items-center justify-center">
                 <span className="text-5xl">💻</span>
-              </div>
+              </div> */}
+
+              <div className="h-4 bg-gradient-to-br from-teal-100 to-emerald-100 flex items-center justify-center"></div>
 
               <div className="p-6">
                 {/* Title */}
