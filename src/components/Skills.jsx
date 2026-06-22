@@ -22,6 +22,7 @@ import {
   SiPostgresql,
   SiPhpmyadmin,
   SiFilezilla,
+  SiNextdotjs
 } from "react-icons/si";
 
 export default function Skills() {
@@ -42,6 +43,10 @@ export default function Skills() {
       {
         name: "ReactJS",
         icon: <FaReact className="text-cyan-500" size={40} />,
+      },
+      {
+        name: "NextJS",
+        icon: <SiNextdotjs className="text-cyan-500" size={40} />,
       },
     ],
 

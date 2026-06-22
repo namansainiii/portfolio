@@ -34,7 +34,7 @@ export default function Hero() {
 </h2>
 
 <p className="text-teal-600 font-medium mb-6">
-  PHP • Laravel • Symfony • ReactJS • MySQL
+  PHP • ReactJS • MySQL • Modern Frameworks/Libraries
 </p>
 
           <p className="max-w-2xl text-base md:text-lg text-slate-500 mb-8 leading-7 md:leading-8">
