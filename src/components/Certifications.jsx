@@ -14,13 +14,13 @@ export default function Certifications() {
       link: "/certificates/reactjs.pdf",
       image: "/certificates/reactjs.png",
     },
-    // {
-    //   title: "Full Stack PHP Web Development",
-    //   issuer: "Coursera",
-    //   year: "2026",
-    //   link: "/certificates/php_development.pdf",
-    //   image: "/certificates/php_development.png",
-    // },
+    {
+      title: "Full Stack PHP Web Development",
+      issuer: "Coursera",
+      year: "2026",
+      link: "/certificates/php_development.pdf",
+      image: "/certificates/php_development.png",
+    },
   ];
 
   return (
