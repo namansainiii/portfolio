@@ -24,6 +24,9 @@ import {
   SiPhpmyadmin,
   SiFilezilla,
   SiNextdotjs,
+  SiVite,
+  SiAlpinedotjs,
+  SiGithubdeskto,
 } from "react-icons/si";
 
 export default function Skills() {
@@ -132,16 +135,20 @@ export default function Skills() {
         icon: <FaGithub className="text-black" size={40} />,
       },
       {
+        name: "GitHub Desktop",
+        icon: <SiGithubdesktop className="text-purple-600" size={40} />,
+      },
+      {
+        name: "Vite",
+        icon: <SiVite className="text-purple-500" size={40} />,
+      },
+      {
+        name: "Alpine.js",
+        icon: <SiAlpinedotjs className="text-sky-500" size={40} />,
+      },
+      {
         name: "Postman",
         icon: <SiPostman className="text-orange-500" size={40} />,
-      },
-      {
-        name: "phpMyAdmin",
-        icon: <SiPhpmyadmin className="text-orange-500" size={40} />,
-      },
-      {
-        name: "FileZilla",
-        icon: <SiFilezilla className="text-red-500" size={40} />,
       },
     ],
   };
