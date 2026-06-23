@@ -26,7 +26,6 @@ import {
   SiNextdotjs,
   SiVite,
   SiAlpinedotjs,
-  SiGithubdeskto,
 } from "react-icons/si";
 
 export default function Skills() {
@@ -35,6 +34,7 @@ export default function Skills() {
   const frontendRef = useRef(null);
   const backendRef = useRef(null);
   const toolsRef = useRef(null);
+  const databaseRef = useRef(null);
 
   const handleCategoryClick = (category) => {
     setActiveCategory(category);
@@ -60,6 +60,13 @@ export default function Skills() {
         if (category === "Tools" && toolsRef.current) {
           window.scrollTo({
             top: toolsRef.current.offsetTop - navbarHeight,
+            behavior: "smooth",
+          });
+        }
+
+        if (category === "Database" && databaseRef.current) {
+          window.scrollTo({
+            top: databaseRef.current.offsetTop - navbarHeight,
             behavior: "smooth",
           });
         }
@@ -115,6 +122,9 @@ export default function Skills() {
         name: "CodeIgniter",
         icon: <SiCodeigniter className="text-orange-500" size={40} />,
       },
+    ],
+
+    Database: [
       {
         name: "MySQL",
         icon: <SiMysql className="text-blue-500" size={40} />,
@@ -135,10 +145,6 @@ export default function Skills() {
         icon: <FaGithub className="text-black" size={40} />,
       },
       {
-        name: "GitHub Desktop",
-        icon: <SiGithubdesktop className="text-purple-600" size={40} />,
-      },
-      {
         name: "Vite",
         icon: <SiVite className="text-purple-500" size={40} />,
       },
@@ -149,6 +155,14 @@ export default function Skills() {
       {
         name: "Postman",
         icon: <SiPostman className="text-orange-500" size={40} />,
+      },
+      {
+        name: "FileZilla",
+        icon: <SiFilezilla className="text-orange-500" size={40} />,
+      },
+      {
+        name: "Phpmyadmin",
+        icon: <SiPhpmyadmin className="text-orange-500" size={40} />,
       },
     ],
   };
@@ -199,7 +213,9 @@ export default function Skills() {
                   ? frontendRef
                   : category === "Backend"
                     ? backendRef
-                    : toolsRef;
+                    : category === "Database"
+                      ? databaseRef
+                      : toolsRef;
 
               return (
                 <div
