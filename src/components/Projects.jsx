@@ -13,7 +13,7 @@ export default function Projects() {
         "Worked on Admissions, Examinations, Dashboard and Pre-Admission modules used by schools.",
     },
     {
-      title: "Jobopia",
+      title: "JobDock",
       tech: ["Laravel", "MySQL", "Bootstrap"],
       description:
         "A Laravel-based job portal where users can search, apply and manage jobs efficiently.",

@@ -1,18 +1,25 @@
 export default function Certifications() {
   const certifications = [
     {
-      title: "NextJS Development",
+      title: "Advanced JavaScript",
       issuer: "Coursera",
       year: "2026",
-      link: "/certificates/nextjs.pdf",
-      image: "/certificates/nextjs.png",
+      link: "/certificates/js.pdf",
+      image: "/certificates/js.png",
     },
-    {
+        {
       title: "ReactJS Development",
       issuer: "Coursera",
       year: "2026",
       link: "/certificates/reactjs.pdf",
       image: "/certificates/reactjs.png",
+    },
+    {
+      title: "NextJS Development",
+      issuer: "Coursera",
+      year: "2026",
+      link: "/certificates/nextjs.pdf",
+      image: "/certificates/nextjs.png",
     },
     {
       title: "Laravel Development",
@@ -21,13 +28,13 @@ export default function Certifications() {
       link: "/certificates/laravel_development.pdf",
       image: "/certificates/laravel_development.png",
     },
-    // {
-    //   title: "Full Stack PHP Web Development",
-    //   issuer: "Coursera",
-    //   year: "2026",
-    //   link: "/certificates/php_development.pdf",
-    //   image: "/certificates/php_development.png",
-    // },
+    {
+      title: "Full Stack PHP Web Development",
+      issuer: "Coursera",
+      year: "2026",
+      link: "/certificates/php_development.pdf",
+      image: "/certificates/php_development.png",
+    },
   ];
 
   return (
