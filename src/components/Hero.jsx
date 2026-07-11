@@ -12,7 +12,7 @@ export default function Hero() {
         {/* Image */}
         <div className="flex justify-center">
           <img
-            src="/profile/1.jpeg"
+            src="/profile/1.png"
             alt="Namanpreet Kaur"
             className="w-40 h-40 md:w-72 md:h-72 rounded-full object-cover border-4 border-white shadow-xl shadow-teal-200"
           />
