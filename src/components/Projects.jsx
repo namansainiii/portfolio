@@ -51,14 +51,14 @@ export default function Projects() {
     {
       id: "studyhere",
       title: "StudyHere",
-      badge: "Alumni Network",
+      badge: "Educational Q&A Portal",
       tech: [
         { name: "Symfony", icon: <SiSymfony className="text-slate-800 dark:text-white" /> },
         { name: "React", icon: <SiReact className="text-cyan-500" /> },
         { name: "MySQL", icon: <SiMysql className="text-blue-500" /> }
       ],
       description:
-        "Alumni portal enabling educational institutions to maintain graduate records and foster networking.",
+        "An interactive learning portal for teachers and students where teachers post questions and assignments for students to answer online.",
       github: "https://github.com/namansainiii/studyHere",
       live: "https://github.com/namansainiii/studyHere",
       isPrivate: false,
