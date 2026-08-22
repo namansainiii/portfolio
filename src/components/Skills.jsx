@@ -101,7 +101,7 @@ export default function Skills() {
       },
       {
         name: "NextJS",
-        icon: <SiNextdotjs className="text-black" size={40} />,
+        icon: <SiNextdotjs className="text-black dark:text-white" size={40} />,
       },
     ],
 
@@ -112,7 +112,7 @@ export default function Skills() {
       },
       {
         name: "Symfony",
-        icon: <SiSymfony className="text-black" size={40} />,
+        icon: <SiSymfony className="text-black dark:text-white" size={40} />,
       },
       {
         name: "Laravel",
@@ -131,7 +131,7 @@ export default function Skills() {
       },
       {
         name: "PostgreSQL",
-        icon: <SiPostgresql className="text-blue-700" size={40} />,
+        icon: <SiPostgresql className="text-blue-700 dark:text-blue-400" size={40} />,
       },
     ],
 
@@ -142,7 +142,7 @@ export default function Skills() {
       },
       {
         name: "GitHub",
-        icon: <FaGithub className="text-black" size={40} />,
+        icon: <FaGithub className="text-black dark:text-white" size={40} />,
       },
       {
         name: "Vite",
@@ -168,9 +168,9 @@ export default function Skills() {
   };
 
   return (
-    <section id="skills" className="py-24 px-6 bg-slate-50">
+    <section id="skills" className="py-24 px-6 bg-slate-50 dark:bg-slate-900/60 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-8 text-teal-600 uppercase tracking-wide">
+        <h2 className="text-3xl md:text-5xl font-bold text-center mb-8 text-teal-600 dark:text-teal-400 uppercase tracking-wide">
           Skills
         </h2>
 
@@ -184,7 +184,7 @@ export default function Skills() {
               className={`w-full text-left px-6 py-4 rounded-full transition-all duration-300 ${
                 activeCategory === "All"
                   ? "bg-gradient-to-r from-teal-500 to-emerald-500 text-white shadow-lg"
-                  : "bg-white border border-slate-200 text-slate-700 hover:bg-slate-100"
+                  : "bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
               }`}
             >
               All Skills
@@ -197,7 +197,7 @@ export default function Skills() {
                 className={`w-full text-left px-6 py-4 rounded-full transition-all duration-300 ${
                   activeCategory === category
                     ? "bg-gradient-to-r from-teal-500 to-emerald-500 text-white shadow-lg"
-                    : "bg-white border border-slate-200 text-slate-700 hover:bg-slate-100"
+                    : "bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
                 }`}
               >
                 {category}
@@ -231,11 +231,11 @@ export default function Skills() {
                     {skills.map((skill) => (
                       <div
                         key={skill.name}
-                        className="bg-white border border-slate-200 rounded-full px-5 py-3 flex items-center gap-3 shadow-sm hover:shadow-md hover:border-teal-500 hover:-translate-y-1 transition-all duration-300"
+                        className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-full px-5 py-3 flex items-center gap-3 shadow-sm hover:shadow-md hover:border-teal-500 dark:hover:border-teal-400 hover:-translate-y-1 transition-all duration-300"
                       >
                         {skill.icon}
 
-                        <span className="text-slate-700 text-sm font-medium whitespace-nowrap">
+                        <span className="text-slate-700 dark:text-slate-200 text-sm font-medium whitespace-nowrap">
                           {skill.name}
                         </span>
                       </div>
@@ -250,3 +250,4 @@ export default function Skills() {
     </section>
   );
 }
+

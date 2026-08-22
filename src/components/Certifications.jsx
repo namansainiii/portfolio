@@ -7,7 +7,7 @@ export default function Certifications() {
       link: "/certificates/js.pdf",
       image: "/certificates/js.png",
     },
-        {
+    {
       title: "ReactJS Development",
       issuer: "Coursera",
       year: "2026",
@@ -38,9 +38,9 @@ export default function Certifications() {
   ];
 
   return (
-    <section id="certifications" className="py-24 px-6 bg-white">
+    <section id="certifications" className="py-24 px-6 bg-white dark:bg-slate-950 transition-colors duration-300">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 text-teal-600 uppercase tracking-wide">
+        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 text-teal-600 dark:text-teal-400 uppercase tracking-wide">
           Certifications
         </h2>
 
@@ -50,31 +50,33 @@ export default function Certifications() {
           {certifications.map((cert) => (
             <div
               key={cert.title}
-              className="bg-white rounded-3xl border border-slate-200 p-6 shadow-lg hover:-translate-y-2 hover:shadow-xl transition duration-300"
+              className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-6 shadow-lg hover:-translate-y-2 hover:shadow-xl transition duration-300 flex flex-col justify-between"
             >
-              <a href={cert.link} target="_blank" rel="noopener noreferrer">
-                <div className="h-44 overflow-hidden rounded-2xl mb-5 border border-slate-200">
-                  <img
-                    src={cert.image}
-                    alt={cert.title}
-                    className="w-full h-full object-cover hover:scale-105 transition duration-300"
-                  />
-                </div>
-              </a>
+              <div>
+                <a href={cert.link} target="_blank" rel="noopener noreferrer">
+                  <div className="h-44 overflow-hidden rounded-2xl mb-5 border border-slate-200 dark:border-slate-700">
+                    <img
+                      src={cert.image}
+                      alt={cert.title}
+                      className="w-full h-full object-cover hover:scale-105 transition duration-300"
+                    />
+                  </div>
+                </a>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-2">
-                {cert.title}
-              </h3>
+                <h3 className="text-xl font-bold text-slate-800 dark:text-slate-100 mb-2">
+                  {cert.title}
+                </h3>
 
-              <p className="text-slate-600">{cert.issuer}</p>
+                <p className="text-slate-600 dark:text-slate-300">{cert.issuer}</p>
 
-              <p className="text-slate-500 text-sm mt-1">{cert.year}</p>
+                <p className="text-slate-500 dark:text-slate-400 text-sm mt-1">{cert.year}</p>
+              </div>
 
               <a
                 href={cert.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-2 inline-block px-6 py-3 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 text-white font-medium hover:scale-105 transition"
+                className="mt-4 inline-block text-center px-6 py-3 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 text-white font-medium hover:scale-105 transition shadow-md"
               >
                 Verify Certificate
               </a>
@@ -85,3 +87,4 @@ export default function Certifications() {
     </section>
   );
 }
+
