@@ -60,7 +60,7 @@ export default function Projects() {
       description:
         "An interactive learning portal for teachers and students where teachers post questions and assignments for students to answer online.",
       github: "https://github.com/namansainiii/studyHere",
-      live: "https://github.com/namansainiii/studyHere",
+      live: "https://studyhere-48lj.onrender.com",
       isPrivate: false,
     },
     {
@@ -75,7 +75,7 @@ export default function Projects() {
       description:
         "Responsive developer portfolio built with React and Tailwind CSS featuring dynamic theme toggling.",
       github: "https://github.com/namansainiii/portfolio",
-      live: "https://github.com/namansainiii/portfolio",
+      live: "https://namanpreet.vercel.app/",
       isPrivate: false,
     },
   ];
