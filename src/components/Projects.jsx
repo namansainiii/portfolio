@@ -2,29 +2,29 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Projects() {
   const projects = [
-    {
-      title: "AlmaCircle",
-      tech: ["Symfony", "React", "MySQL"],
-      description:
-        "A web-based alumni management portal that enables institutions to maintain alumni records, foster networking, and strengthen alumni engagement.",
-      github: "https://github.com/namansainiii/AlmaCircle",
-      live: "https://almacircle.com",
-    },
-    {
-      title: "School ERP System",
-      tech: ["PHP", "CodeIgniter", "MySQL"],
-      description:
-        "Worked on Admissions, Examinations, Dashboard and Pre-Admission modules used by schools.",
-      github: "https://github.com/namansainiii/School-ERP",
-      live: "https://school-erp-demo.com",
-    },
+    // {
+    //   title: "AlmaCircle",
+    //   tech: ["Symfony", "React", "MySQL"],
+    //   description:
+    //     "A web-based alumni management portal that enables institutions to maintain alumni records, foster networking, and strengthen alumni engagement.",
+    //   github: "https://github.com/namansainiii/AlmaCircle",
+    //   live: "https://almacircle.com",
+    // },
+    // {
+    //   title: "School ERP System",
+    //   tech: ["PHP", "CodeIgniter", "MySQL"],
+    //   description:
+    //     "Worked on Admissions, Examinations, Dashboard and Pre-Admission modules used by schools.",
+    //   github: "https://github.com/namansainiii/School-ERP",
+    //   live: "https://school-erp-demo.com",
+    // },
     {
       title: "JobDock",
       tech: ["Laravel", "MySQL", "Bootstrap"],
       description:
         "A Laravel-based job portal where users can search, apply and manage jobs efficiently.",
       github: "https://github.com/namansainiii/JobDock",
-      live: "https://jobdock-demo.com",
+      live: "https://jobdock.org/",
     },
     {
       title: "Warehouse Management System",
@@ -32,8 +32,24 @@ export default function Projects() {
       description:
         "Implemented warehouse onboarding, inventory management and location tracking features.",
       github: "https://github.com/namansainiii/Warehouse-Management",
-      live: "https://warehouse-demo.com",
+      live: "https://downloadappshere.online/",
     },
+    {
+      title: "StudyHere",
+      tech: ["Symfony", "React", "MySQL"],
+      description:
+        "A web-based alumni management portal that enables institutions to maintain alumni records, foster networking, and strengthen alumni engagement.",
+      github: "https://github.com/namansainiii/AlmaCircle",
+      live: "https://studyhere-48lj.onrender.com",
+    },
+    // {
+    //   title: "School ERP System",
+    //   tech: ["PHP", "CodeIgniter", "MySQL"],
+    //   description:
+    //     "Worked on Admissions, Examinations, Dashboard and Pre-Admission modules used by schools.",
+    //   github: "https://github.com/namansainiii/School-ERP",
+    //   live: "https://school-erp-demo.com",
+    // },
   ];
 
   return (
