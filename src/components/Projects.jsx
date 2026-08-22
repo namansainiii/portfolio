@@ -1,19 +1,19 @@
 "use client";
 
-import { 
-  FaLock, 
-  FaGithub, 
-  FaExternalLinkAlt, 
+import {
+  FaLock,
+  FaGithub,
+  FaExternalLinkAlt,
   FaLayerGroup
 } from "react-icons/fa";
-import { 
-  SiLaravel, 
-  SiReact, 
-  SiSymfony, 
-  SiNextdotjs, 
-  SiMysql, 
-  SiTailwindcss, 
-  SiBootstrap 
+import {
+  SiLaravel,
+  SiReact,
+  SiSymfony,
+  SiNextdotjs,
+  SiMysql,
+  SiTailwindcss,
+  SiBootstrap
 } from "react-icons/si";
 
 export default function Projects() {
@@ -53,7 +53,7 @@ export default function Projects() {
       title: "StudyHere",
       badge: "Educational Q&A Portal",
       tech: [
-        { name: "Symfony", icon: <SiSymfony className="text-slate-800 dark:text-white" /> },
+        { name: "Laravel", icon: <SiSymfony className="text-slate-800 dark:text-white" /> },
         { name: "React", icon: <SiReact className="text-cyan-500" /> },
         { name: "MySQL", icon: <SiMysql className="text-blue-500" /> }
       ],
@@ -87,7 +87,7 @@ export default function Projects() {
       <div className="absolute bottom-10 right-1/4 w-96 h-96 bg-emerald-300/20 dark:bg-emerald-500/10 blur-3xl rounded-full pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto relative z-10">
-        
+
         {/* Header Section */}
         <div className="text-center max-w-2xl mx-auto mb-12">
 
