@@ -30,7 +30,7 @@ export default function About() {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
             <a
-              href="/NamanpreetKaur_Resume.pdf"
+              href="/Namanpreet_Kaur.pdf"
               download
               className="w-48 text-center px-8 py-4 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 text-white font-semibold hover:scale-105 transition duration-300 shadow-lg"
             >
@@ -38,7 +38,7 @@ export default function About() {
             </a>
 
             <a
-              href="/NamanpreetKaur_Resume.pdf"
+              href="/Namanpreet_Kaur.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="w-48 text-center px-8 py-4 rounded-xl border border-teal-500 dark:border-teal-400 text-teal-600 dark:text-teal-400 font-semibold hover:bg-teal-50 dark:hover:bg-teal-950/50 transition duration-300"
