@@ -28,24 +28,24 @@ export default function About() {
           </p>
 
           {/* Buttons */}
-          {/* <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
             <a
-              href="/Namanpreet_Kaur.pdf"
-              download
+              href="/cv/Namanpreet_Kaur.pdf"
+              download="Namanpreet_Kaur_CV.pdf"
               className="w-48 text-center px-8 py-4 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 text-white font-semibold hover:scale-105 transition duration-300 shadow-lg"
             >
               Download CV
             </a>
 
             <a
-              href="/Namanpreet_Kaur.pdf"
+              href="/cv/Namanpreet_Kaur.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="w-48 text-center px-8 py-4 rounded-xl border border-teal-500 dark:border-teal-400 text-teal-600 dark:text-teal-400 font-semibold hover:bg-teal-50 dark:hover:bg-teal-950/50 transition duration-300"
             >
               View CV
             </a>
-          </div> */}
+          </div>
 
           {/* Stats */}
           <div className="grid md:grid-cols-3 gap-6 mt-12">
