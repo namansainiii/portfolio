@@ -10,6 +10,7 @@ import {
   FaGitAlt,
   FaGithub,
   FaBitbucket,
+  FaNodeJs,
 } from "react-icons/fa";
 
 import {
@@ -123,6 +124,10 @@ export default function Skills() {
         name: "CodeIgniter",
         icon: <SiCodeigniter className="text-orange-500" size={40} />,
       },
+      {
+        name: "Nodejs",
+        icon: <FaNodeJs className="text-orange-500" size={40} />,
+      },
     ],
 
     Database: [
@@ -187,8 +192,8 @@ export default function Skills() {
             <button
               onClick={() => setActiveCategory("All")}
               className={`w-full text-left px-6 py-4 rounded-full transition-all duration-300 ${activeCategory === "All"
-                  ? "bg-gradient-to-r from-teal-500 to-emerald-500 text-white shadow-lg"
-                  : "bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
+                ? "bg-gradient-to-r from-teal-500 to-emerald-500 text-white shadow-lg"
+                : "bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
                 }`}
             >
               All Skills
@@ -199,8 +204,8 @@ export default function Skills() {
                 key={category}
                 onClick={() => handleCategoryClick(category)}
                 className={`w-full text-left px-6 py-4 rounded-full transition-all duration-300 ${activeCategory === category
-                    ? "bg-gradient-to-r from-teal-500 to-emerald-500 text-white shadow-lg"
-                    : "bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
+                  ? "bg-gradient-to-r from-teal-500 to-emerald-500 text-white shadow-lg"
+                  : "bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
                   }`}
               >
                 {category}
@@ -225,8 +230,8 @@ export default function Skills() {
                   key={category}
                   ref={sectionRef}
                   className={`scroll-mt-40 transition-all duration-500 ${activeCategory === "All" || activeCategory === category
-                      ? "opacity-100"
-                      : "opacity-30"
+                    ? "opacity-100"
+                    : "opacity-30"
                     }`}
                 >
                   <div className="flex flex-wrap gap-4">
