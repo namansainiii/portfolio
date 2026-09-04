@@ -9,6 +9,7 @@ import {
   FaCss3Alt,
   FaGitAlt,
   FaGithub,
+  FaBitbucket,
 } from "react-icons/fa";
 
 import {
@@ -164,6 +165,10 @@ export default function Skills() {
         name: "Phpmyadmin",
         icon: <SiPhpmyadmin className="text-orange-500" size={40} />,
       },
+      {
+        name: "BitBucket",
+        icon: <FaBitbucket className="text-orange-500" size={40} />,
+      },
     ],
   };
 
@@ -181,11 +186,10 @@ export default function Skills() {
           <div className="space-y-4">
             <button
               onClick={() => setActiveCategory("All")}
-              className={`w-full text-left px-6 py-4 rounded-full transition-all duration-300 ${
-                activeCategory === "All"
+              className={`w-full text-left px-6 py-4 rounded-full transition-all duration-300 ${activeCategory === "All"
                   ? "bg-gradient-to-r from-teal-500 to-emerald-500 text-white shadow-lg"
                   : "bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
-              }`}
+                }`}
             >
               All Skills
             </button>
@@ -194,11 +198,10 @@ export default function Skills() {
               <button
                 key={category}
                 onClick={() => handleCategoryClick(category)}
-                className={`w-full text-left px-6 py-4 rounded-full transition-all duration-300 ${
-                  activeCategory === category
+                className={`w-full text-left px-6 py-4 rounded-full transition-all duration-300 ${activeCategory === category
                     ? "bg-gradient-to-r from-teal-500 to-emerald-500 text-white shadow-lg"
                     : "bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
-                }`}
+                  }`}
               >
                 {category}
               </button>
@@ -221,11 +224,10 @@ export default function Skills() {
                 <div
                   key={category}
                   ref={sectionRef}
-                  className={`scroll-mt-40 transition-all duration-500 ${
-                    activeCategory === "All" || activeCategory === category
+                  className={`scroll-mt-40 transition-all duration-500 ${activeCategory === "All" || activeCategory === category
                       ? "opacity-100"
                       : "opacity-30"
-                  }`}
+                    }`}
                 >
                   <div className="flex flex-wrap gap-4">
                     {skills.map((skill) => (
