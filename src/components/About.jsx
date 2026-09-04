@@ -28,7 +28,7 @@ export default function About() {
           </p>
 
           {/* Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
+          {/* <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
             <a
               href="/Namanpreet_Kaur.pdf"
               download
@@ -45,7 +45,7 @@ export default function About() {
             >
               View CV
             </a>
-          </div>
+          </div> */}
 
           {/* Stats */}
           <div className="grid md:grid-cols-3 gap-6 mt-12">
