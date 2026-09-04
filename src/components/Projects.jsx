@@ -48,21 +48,21 @@ export default function Projects() {
       live: "https://downloadappshere.online/",
       isPrivate: true,
     },
-    {
-      id: "studyhere",
-      title: "StudyHere",
-      badge: "Educational Q&A Portal",
-      tech: [
-        { name: "Laravel", icon: <SiSymfony className="text-slate-800 dark:text-white" /> },
-        { name: "React", icon: <SiReact className="text-cyan-500" /> },
-        { name: "MySQL", icon: <SiMysql className="text-blue-500" /> }
-      ],
-      description:
-        "An interactive learning portal for teachers and students where teachers post questions and assignments for students to answer online.",
-      github: "https://github.com/namansainiii/studyHere",
-      live: "https://studyhere-48lj.onrender.com",
-      isPrivate: false,
-    },
+    // {
+    //   id: "studyhere",
+    //   title: "StudyHere",
+    //   badge: "Educational Q&A Portal",
+    //   tech: [
+    //     { name: "Laravel", icon: <SiSymfony className="text-slate-800 dark:text-white" /> },
+    //     { name: "React", icon: <SiReact className="text-cyan-500" /> },
+    //     { name: "MySQL", icon: <SiMysql className="text-blue-500" /> }
+    //   ],
+    //   description:
+    //     "An interactive learning portal for teachers and students where teachers post questions and assignments for students to answer online.",
+    //   github: "https://github.com/namansainiii/studyHere",
+    //   live: "https://studyhere-48lj.onrender.com",
+    //   isPrivate: false,
+    // },
     {
       id: "portfolio",
       title: "Portfolio Website",

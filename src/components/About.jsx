@@ -16,20 +16,15 @@ export default function About() {
             <span className="font-semibold text-slate-800 dark:text-slate-100">
               Namanpreet Kaur
             </span>
-            , a Software Developer with experience in PHP, Laravel, CodeIgniter,
-            ReactJS, MySQL, and modern web application development.
+            , a Software Developer specializing in PHP, Laravel, CodeIgniter, ReactJS, MySQL, and modern web application development.
           </p>
 
           <p className="text-slate-600 dark:text-slate-300 leading-8 text-lg mt-6">
-            I have worked on School ERP systems including Admissions,
-            Examinations, Dashboard, and Warehouse Management modules, helping
-            build scalable solutions used by educational institutions.
+            I have experience building solutions across diverse domains, including School ERP, Warehouse Management, Hotel Management, and Education platforms. My projects include JobDock, Shift Ninjas, JSMStudy, and several custom web applications. With experience in backend development, APIs, database architecture, dashboards, and responsive web applications, I focus on building scalable and user-friendly solutions.
           </p>
 
           <p className="text-slate-600 dark:text-slate-300 leading-8 text-lg mt-6">
-            Currently, I am pursuing an MBA in Cyber Security while continuously
-            enhancing my skills in software development, backend architecture,
-            and modern web technologies.
+            I have completed my MBA in Cyber Security, combining my technical expertise with knowledge of cybersecurity and business management.
           </p>
 
           {/* Buttons */}
